@@ -1,12 +1,12 @@
-##Filename: Online Bookstore
+## Filename: Online Bookstore
 ---
-###Author: Hongxiang Wang (whx0509@gmail.com or hongxiang_wang@126.com)
+### Author: Hongxiang Wang (whx0509@gmail.com or hongxiang_wang@126.com)
 ---
-###Version: 1.0
+### Version: 1.0
 ---
-###Language: Java, JavaScript
+### Language: Java, JavaScript
 ---
-###Description:
+### Description:
 
 This is a toy-like web application developed by using java. This program go
 through the test under: java 1.8.0_101, MySQL 5.7.16 MySQL Community Server,
@@ -18,7 +18,7 @@ the cookie. I will try to fix these problems in following version.
 
 ---
 
-###Main Functions:
+### Main Functions:
 + Login to System
 + Sign up an account
 + Buy books
@@ -26,7 +26,7 @@ the cookie. I will try to fix these problems in following version.
 + change personal information
 ---
 
-###How to use it:
+### How to use it:
 1. Install Java: <https://www.java.com/en/download/>
 2. Download tomcat: <https://tomcat.apache.org/>
 3. Put this project folder under */apache/webapps*
