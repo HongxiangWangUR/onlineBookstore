@@ -1,0 +1,21 @@
+$(function(){
+	$("button").click(function(){
+		var id=$(this).val()
+		$.ajax({
+			url:"deleteOrder",
+			method:"post",
+			data:{order_id:id},
+			dataType:"json",
+			success:function(data,textStatus){
+				if(data.result=='ok'){
+					window.location.reload()
+				}else{
+					window.location.replace("error.jsp")
+				}
+			},
+			error:function(XMLHttpRequest,textStatus,errorThrown){
+				alert(errorThrown)
+			}
+		})
+	})
+})
