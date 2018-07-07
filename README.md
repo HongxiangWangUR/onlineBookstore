@@ -29,11 +29,12 @@ the cookie. I will try to fix these problems in following version.
 ### How to use it:
 1. Install Java: <https://www.java.com/en/download/>
 2. Download tomcat: <https://tomcat.apache.org/>
-3. Put this project folder under */apache/webapps*
-4. Open the terminal and go under data folder then execute the command:
+3. Download MySQL: <https://dev.mysql.com/downloads/mysql/5.7.html#downloads>
+4. Put this project folder under */apache/webapps*
+5. Open the terminal and go under data folder then execute the command:
 *source create.sql*
-5. Modify databaseConnect.java, change the username and password to your username
-and password
-6. startup the tomcat
-7. visit the site: <localhost:8080/onlineBookstore/>
-8. Test username: admin, password: 1234
+6. Modify databaseConnect.java, change the username and password to your username
+and password and recompile this file
+7. startup the tomcat
+8. visit the site: <localhost:8080/onlineBookstore/>
+9. Test username: admin, password: 1234
