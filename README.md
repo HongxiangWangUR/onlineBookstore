@@ -30,9 +30,9 @@ the cookie. I will try to fix these problems in following version.
 1. Install Java: <https://www.java.com/en/download/>
 2. Download tomcat: <https://tomcat.apache.org/>
 3. Download MySQL: <https://dev.mysql.com/downloads/mysql/5.7.html#downloads>
-4. Put this project folder under */apache/webapps*
+4. Put this project folder under `/apache/webapps`
 5. Open the terminal and go under data folder then execute the command:
-*source create.sql*
+`source create.sql`
 6. Modify databaseConnect.java, change the username and password to your username
 and password and recompile this file
 7. startup the tomcat
